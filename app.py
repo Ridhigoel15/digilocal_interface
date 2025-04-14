@@ -6,11 +6,8 @@ st.title("Digilocal Audience Request Tool")
 # Dropdowns
 region = st.selectbox("Select Region", ['NORTH 1','NORTH 2','NORTH 3','NORTH 4','WEST 1','WEST 2', 'WEST 3','EAST 1','EAST 2','SOUTH 1','SOUTH 2','SOUTH 3'])
 store = st.text_input("Enter Store Code (e.g., PXI, CBB, etc.)")
+city = st.text_input("Enter Store Code (e.g., PXI, CBB, etc.)")
 time_frame = st.selectbox("Select Time Frame", ['Last Year','Last 3 Years', 'Last 5 Years'])
-audience_type = st.selectbox("Select Audience Type", [
-    "All Buyers", "Gold Coin Buyers", "Frequent Buyers", 
-    "Online Purchasers", "Festive Buyers", "Diamond Buyers"
-])
 
 
 # Generate Button
